@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000713
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -25,15 +26,41 @@ description: 'Data released here is for archival purposes. The recommended route
   which provides methods for downloading and processing data. Documentation of the
   AllenSDK can be found here: https://allensdk.readthedocs.io/en/latest/. Full documentation
   of the Visual Behavior Neuropixels dataset and tutorials can be found here: https://allensdk.readthedocs.io/en/latest/visual_behavior_neuropixels.html '
+ethicsApproval: []
 id: DANDI:000713/draft
 identifier: DANDI:000713
+keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000713/versions/draft/assets/
 name: Allen Institute - Visual Behavior - Neuropixels
+protocol: []
+relatedResource:
+- name: Behavior Session Metadata Table
+  relation: dcite:IsMetadataFor
+  schemaKey: Resource
+  url: https://visual-behavior-neuropixels-data.s3.us-west-2.amazonaws.com/visual-behavior-neuropixels/project_metadata/behavior_sessions.csv
+- name: Ecephys Session Metadata Table
+  relation: dcite:IsMetadataFor
+  schemaKey: Resource
+  url: https://visual-behavior-neuropixels-data.s3.us-west-2.amazonaws.com/visual-behavior-neuropixels/project_metadata/ecephys_sessions.csv
+- name: Probe Metadata Table
+  relation: dcite:IsMetadataFor
+  schemaKey: Resource
+  url: https://visual-behavior-neuropixels-data.s3.us-west-2.amazonaws.com/visual-behavior-neuropixels/project_metadata/probes.csv
+- name: Channel Metadata Table
+  relation: dcite:IsMetadataFor
+  schemaKey: Resource
+  url: https://visual-behavior-neuropixels-data.s3.us-west-2.amazonaws.com/visual-behavior-neuropixels/project_metadata/channels.csv
+- name: Unit Metadata Table
+  relation: dcite:IsMetadataFor
+  schemaKey: Resource
+  url: https://visual-behavior-neuropixels-data.s3.us-west-2.amazonaws.com/visual-behavior-neuropixels/project_metadata/units.csv
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000713/draft
 version: draft
+wasGeneratedBy: []
