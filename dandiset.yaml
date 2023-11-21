@@ -10,22 +10,28 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Morrison, Christopher (2023) Allen Institute - Visual Behavior - Neuropixels
-  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000713/draft
+citation: Allen Institute - Visual Behavior - Neuropixels (2023). (Version draft)
+  [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
-- affiliation: []
-  email: morriscb@uw.edu
-  includeInCitation: true
+- affiliation:
+  - identifier: https://ror.org/03cpe7c52
+    name: Allen Institute
+    schemaKey: Affiliation
+  email: chris.morrison@alleninstitute.org
+  identifier: 0000-0001-9419-3947
+  includeInCitation: false
   name: Morrison, Christopher
   roleName:
-  - dcite:ContactPerson
+  - dcite:DataCurator
   schemaKey: Person
 dateCreated: '2023-11-17T22:05:54.773189+00:00'
+datePublished: '2023-11-21T04:12:05.143809+00:00'
 description: 'Data released here is for archival purposes. The recommended route for
   interacting with these data is through the AllenSDK (https://github.com/AllenInstitute/AllenSDK/)
   which provides methods for downloading and processing data. Documentation of the
   AllenSDK can be found here: https://allensdk.readthedocs.io/en/latest/. Full documentation
   of the Visual Behavior Neuropixels dataset and tutorials can be found here: https://allensdk.readthedocs.io/en/latest/visual_behavior_neuropixels.html '
+doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000713/draft
 identifier: DANDI:000713
@@ -36,6 +42,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000713/versions/draft/assets/
 name: Allen Institute - Visual Behavior - Neuropixels
 protocol: []
+publishedBy:
+  endDate: '2023-11-21T04:12:05.143809+00:00'
+  id: urn:uuid:22204b83-5dac-4dca-943b-00dde894e46b
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-11-21T04:12:05.143809+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:54f25d65-9fb0-49a7-a317-7b936f525388
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - name: Behavior Session Metadata Table
   relation: dcite:IsMetadataFor
