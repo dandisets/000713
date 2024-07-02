@@ -36,8 +36,8 @@ assetsSummary:
   - Units
   - ElectricalSeries
   - LFP
-citation: Allen Institute - Visual Behavior - Neuropixels (2024). (Version draft)
-  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000713/draft
+citation: Allen Institute - Visual Behavior - Neuropixels (2024). (Version 0.240702.1725)
+  [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000713/0.240702.1725
 contributor:
 - affiliation:
   - identifier: https://ror.org/03cpe7c52
@@ -64,14 +64,15 @@ description: 'Data released here is for archival purposes. The recommended route
   which provides methods for downloading and processing data. Documentation of the
   AllenSDK can be found here: https://allensdk.readthedocs.io/en/latest/. Full documentation
   of the Visual Behavior Neuropixels dataset and tutorials can be found here: https://allensdk.readthedocs.io/en/latest/visual_behavior_neuropixels.html '
+doi: 10.48324/dandi.000713/0.240702.1725
 ethicsApproval: []
-id: DANDI:000713/draft
+id: DANDI:000713/0.240702.1725
 identifier: DANDI:000713
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000713/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000713/0.240702.1725/assets.yaml
 name: Allen Institute - Visual Behavior - Neuropixels
 protocol: []
 publishedBy:
@@ -111,6 +112,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000713/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000713/0.240702.1725
+version: 0.240702.1725
 wasGeneratedBy: []
